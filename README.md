@@ -42,3 +42,5 @@ The purpose of the analysis was to train a machine learning model to determine c
 
 
 Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+
+The RandomOverSampler and SMOTEENN performed best, although I do not believe I would recommend any of the models. Each of them overfits the data in some way, and even the best performing models don't have overly spectacular recall scores. I believe the main issue is the lack of high risk data available, and that a larger data source may help with the overfitting.
